@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/save"
+        android:checkable="true"
+        android:icon="@android:drawable/arrow_down_float"
+        android:title="Save"
+        android:visible="true"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <item
+        android:id="@+id/del"
+        android:icon="@android:drawable/btn_dialog"
+        android:title="Delete"
+        app:showAsAction="ifRoom" />
+</menu>
